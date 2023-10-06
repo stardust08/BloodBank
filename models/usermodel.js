@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// thi hgdwjdfsjkfwe
 const userSchema = new mongoose.Schema({
 
     role: {
@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
             return false;
         }
     },
-    organisation: {
+    organisationName: {
         type: String,
         required: function(){
             if( this.role==="organisation"){
@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
              
         }
     },
-    hospital: {
+    hospitalName: {
          type: String,
          required:function() {
             if(this.role === "hospital"){

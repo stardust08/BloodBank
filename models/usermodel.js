@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// thi hgdwjdfsjkfwe
 const userSchema = new mongoose.Schema({
 
     role: {
